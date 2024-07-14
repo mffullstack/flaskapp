@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 
 # Configuração da API do Google GenerativeAI
-gmeni.configure(api_key=API_KEY)
+gmeni.configure(api_key=""AIzaSyBWhKAgsZoZfNx65XW7DIcYbe4L2RPESQI")
 
 # Rota para gerar o arquivo HTML e obter o link para download
 @app.route('/gerar_html', methods=['GET'])
