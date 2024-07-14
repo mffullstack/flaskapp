@@ -1,3 +1,4 @@
+
 from flask import Flask, jsonify, send_file, request
 import google.generativeai as gmeni
 from credenciais import *
